@@ -1,0 +1,1078 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sirichon Thungklang - Portfolio & CV 2017-2026 | Claymorphism 3D</title>
+  <meta name="description" content="แฟ้มสะสมผลงานและประวัติส่วนบุคคล คุณศิริชล ทุ่งกลาง (Sirichon Thungklang) ในรูปแบบเว็บแอปพลิเคชัน 3D Claymorphism">
+  <!-- Stylesheets -->
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌸</text></svg>">
+</head>
+<body>
+
+  <!-- ======================================================================
+       BACKGROUND DECORATION (FLOATING CLAY ELEMENTS & RETRO GRID)
+       ====================================================================== -->
+  <div class="bg-decoration-canvas" aria-hidden="true">
+    <div class="bg-grid-layer"></div>
+    <div class="clay-blob clay-blob-1"></div>
+    <div class="clay-blob clay-blob-2"></div>
+    <div class="clay-blob clay-blob-3"></div>
+    <div class="clay-blob clay-blob-4"></div>
+    <div class="clay-floating-decor decor-1">🌸</div>
+    <div class="clay-floating-decor decor-2">✨</div>
+    <div class="clay-floating-decor decor-3">🌼</div>
+    <div class="clay-floating-decor decor-4">💜</div>
+    <div class="clay-floating-decor decor-5">🎀</div>
+  </div>
+
+  <!-- ======================================================================
+       SPLASH SCREEN (FIRST LOAD & REFRESH)
+       ====================================================================== -->
+  <aside id="splashScreen" class="splash-overlay" aria-label="ยินดีต้อนรับสู่พอร์ตโฟลิโอ">
+    <div class="splash-clay-card">
+      <div class="splash-avatar-wrapper">
+        <img src="assets/profile_full.jpg" alt="Sirichon Thungklang" class="splash-avatar-img">
+        <div class="splash-avatar-badge">WANFHON 🌸</div>
+      </div>
+      <h1 class="splash-title">Sirichon Thungklang</h1>
+      <p class="splash-subtitle">Curriculum Vitae & Portfolio 2017-2026</p>
+      
+      <div class="splash-badge-row">
+        <span class="splash-mini-badge">Secretary</span>
+        <span class="splash-mini-badge">Graphic Designer</span>
+        <span class="splash-mini-badge">Digital & Event Support</span>
+      </div>
+
+      <div class="splash-quote">
+        “ทุกประสบการณ์ระหว่างทาง มีส่วนทำให้ฉันเติบโตและพัฒนาตนเองมากขึ้น”<br>
+        <span style="font-weight: 700; color: #8b5cf6;">Always learning. Always creating.</span>
+      </div>
+
+      <div class="splash-action-row">
+        <div class="splash-progress-track">
+          <div id="splashProgressBar" class="splash-progress-bar"></div>
+        </div>
+        <button id="btnEnterPortfolio" class="btn-enter-portfolio">
+          <span>เข้าสู่เว็บไซต์ / Enter Portfolio</span>
+          <span>➜</span>
+        </button>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ======================================================================
+       STICKY CLAY NAVIGATION HEADER
+       ====================================================================== -->
+  <header class="site-header">
+    <nav class="clay-navbar" aria-label="เมนูหลัก">
+      <a href="#hero" class="nav-brand">
+        <img src="assets/profile_full.jpg" alt="Sirichon Profile" class="nav-avatar">
+        <div class="brand-text-block">
+          <span class="brand-name">Sirichon T.</span>
+          <span class="brand-tag">WANFHON • PORTFOLIO</span>
+        </div>
+      </a>
+
+      <!-- 4 Core Navigation Menus Requested by User -->
+      <ul id="navMenu" class="nav-menu">
+        <li class="nav-item">
+          <a href="#about" class="clay-nav-btn active">
+            <span>🌸</span>
+            <span>About Me</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#education" class="clay-nav-btn">
+            <span>🎓</span>
+            <span>ประวัติการศึกษา</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#career" class="clay-nav-btn">
+            <span>💼</span>
+            <span>ประวัติการทำงาน</span>
+          </a>
+        </li>
+        <li class="nav-item">
+          <a href="#works" class="clay-nav-btn">
+            <span>🏆</span>
+            <span>ผลงานโดดเด่น</span>
+          </a>
+        </li>
+      </ul>
+
+      <div class="nav-actions">
+        <a href="#contact-box" class="btn-pill-action">
+          <span>💬 ติดต่อ</span>
+        </a>
+        <button id="mobileNavToggle" class="nav-toggle-mobile" aria-label="เปิดเมนู">
+          <span>☰</span>
+        </button>
+      </div>
+    </nav>
+  </header>
+
+  <!-- ======================================================================
+       MAIN CONTENT CONTAINER
+       ====================================================================== -->
+  <main class="main-content">
+
+    <!-- HERO COVER BANNER (2017-2026 CURRICULUM VITAE) -->
+    <section id="hero" class="hero-banner-clay">
+      <div class="hero-flower-decor">
+        <span>✨ Curriculum Vitae 2017-2026</span>
+      </div>
+
+      <div class="hero-text-content">
+        <div class="hero-pill-tag">
+          <span>🌱 Personal Portfolio & Profile Report</span>
+        </div>
+        <h2 class="hero-main-title">
+          สวัสดีค่ะ, ดิฉัน<br>
+          <span class="hero-highlight-name">ศิริชล ทุ่งกลาง</span>
+        </h2>
+        <div class="hero-roles">
+          <span>Secretary</span>
+          <span class="bullet">•</span>
+          <span>Graphic Designer</span>
+          <span class="bullet">•</span>
+          <span>Digital & Event Support</span>
+        </div>
+
+        <div class="hero-quote-clay">
+          <p>“An organized and creative professional who enjoys turning ideas into practical solutions. I combine coordination, design, and digital skills to support both everyday operations and special projects.”</p>
+          <p class="hero-quote-en">“ชอบเรียนรู้สิ่งใหม่ และสนุกกับการเปลี่ยนไอเดียให้กลายเป็นผลงานที่ใช้งานได้จริง”</p>
+        </div>
+
+        <div class="hero-cta-group">
+          <a href="#works" class="btn-clay-primary">
+            <span>ชมผลงานโดดเด่น</span>
+            <span>➜</span>
+          </a>
+          <a href="#about" class="btn-clay-secondary">
+            <span>เกี่ยวกับฉัน (About Me)</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="hero-portrait-frame">
+        <div class="portrait-clay-container">
+          <img src="assets/profile_full.jpg" alt="Sirichon Thungklang Portrait" class="portrait-photo">
+          <div class="portrait-floating-badge">
+            <span>วันฝน (WANFHON)</span>
+            <span style="color: #ec4899;">💖 31 March</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         MENU 1: ABOUT ME (เกี่ยวกับฉัน & ทักษะ)
+         ==================================================================== -->
+    <section id="about" class="section-container">
+      <div class="section-header-bubble">
+        <span class="section-badge-icon">1</span>
+        <h3 class="section-title">About Me</h3>
+        <span class="section-subtitle">ข้อมูลส่วนบุคคลและทักษะความเชี่ยวชาญ</span>
+      </div>
+
+      <div class="about-grid">
+        <!-- Left: Profile Overview Card -->
+        <div class="clay-card profile-card-clay">
+          <div class="profile-card-header">
+            <div class="profile-avatar-circle">
+              <img src="assets/profile_full.jpg" alt="Sirichon Thungklang">
+            </div>
+            <h4 class="profile-name-th">ศิริชล ทุ่งกลาง</h4>
+            <div class="profile-name-en">Sirichon Thungklang</div>
+            <span class="profile-nickname">ชื่อเล่น: วันฝน (WANFHON)</span>
+          </div>
+
+          <div class="info-pills-list">
+            <div class="info-pill-item">
+              <div class="info-pill-icon">🎂</div>
+              <div class="info-pill-content">
+                <span class="info-pill-label">BIRTHDAY</span>
+                <span class="info-pill-val">31 March 1991 (อายุ 35 ปี)</span>
+              </div>
+            </div>
+            <div class="info-pill-item">
+              <div class="info-pill-icon">🩸</div>
+              <div class="info-pill-content">
+                <span class="info-pill-label">BLOOD TYPE</span>
+                <span class="info-pill-val">กรุ๊ปเลือด O</span>
+              </div>
+            </div>
+            <div class="info-pill-item">
+              <div class="info-pill-icon">📍</div>
+              <div class="info-pill-content">
+                <span class="info-pill-label">LOCATION</span>
+                <span class="info-pill-val">Bangkok, Thailand</span>
+              </div>
+            </div>
+            <div class="info-pill-item" id="contact-box">
+              <div class="info-pill-icon">📞</div>
+              <div class="info-pill-content">
+                <span class="info-pill-label">PHONE & LINE</span>
+                <span class="info-pill-val">+668-4144-1669 (Line: araindayz)</span>
+              </div>
+            </div>
+            <div class="info-pill-item">
+              <div class="info-pill-icon">✉️</div>
+              <div class="info-pill-content">
+                <span class="info-pill-label">EMAIL</span>
+                <span class="info-pill-val">araindayzxyz@gmail.com</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Working Style Badges -->
+          <div class="working-style-section">
+            <div class="subsection-label">💡 WORKING STYLE</div>
+            <div class="working-style-badges">
+              <span class="style-badge b-pink">📋 Organized (เป็นระบบ)</span>
+              <span class="style-badge b-yellow">💡 Creative (สร้างสรรค์)</span>
+              <span class="style-badge b-blue">🔍 Detail-Oriented (ใส่ใจรายละเอียด)</span>
+              <span class="style-badge b-mint">🔄 Adaptable (ปรับตัวได้ดี)</span>
+              <span class="style-badge b-lavender">🤝 Collaborative (ทำงานเป็นทีม)</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right: Bio & Digital Skills & Tools (from Page 6) -->
+        <div class="about-details-column">
+          <div class="clay-card bio-card-clay">
+            <h4 style="font-size: 1.3rem; font-weight: 800; color: #1e293b; margin-bottom: 14px;">
+              ✨ ความเป็นตัวตนและเป้าหมายการทำงาน
+            </h4>
+            <p class="bio-text">
+              ดิฉันเป็นบุคลากรที่มีความกระตือรือร้นและมุ่งมั่นในการผสานทักษะด้านการประสานงาน (Executive Coordination), การออกแบบสื่อสร้างสรรค์ (Graphic Design) และการประยุกต์ใช้เทคโนโลยีดิจิทัล (Digital & AI Tools) เพื่อสนับสนุนการดำเนินงานประจำวันและโครงการพิเศษขององค์กรให้ขับเคลื่อนไปอย่างมีประสิทธิภาพสูงสุด
+            </p>
+            <div class="bio-highlight-box">
+              “Always curious, adaptable, and ready to learn something new. ชอบเรียนรู้สิ่งใหม่ และสนุกกับการเปลี่ยนไอเดียให้กลายเป็นผลงานที่ใช้งานได้จริง”
+            </div>
+          </div>
+
+          <!-- Digital Skills & Tools (Page 6) -->
+          <div class="clay-card skills-dashboard-clay">
+            <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 10px;">
+              <h4 style="font-size: 1.25rem; font-weight: 800; color: #0f172a;">
+                💻 Digital Skills & Tools
+              </h4>
+              <span style="font-size: 0.85rem; font-weight: 700; color: #ec4899; background: #fce7f3; padding: 4px 12px; border-radius: 20px;">
+                Tools I use • Impact I create
+              </span>
+            </div>
+
+            <div class="skills-grid-categories">
+              <!-- Box 1: Office & Productivity -->
+              <div class="skill-category-box">
+                <div class="skill-cat-header">
+                  <span class="cat-num-pill cat-num-1">1</span>
+                  <span class="cat-title">Office & Productivity Tools</span>
+                </div>
+                <div class="skill-icons-row">
+                  <span class="tool-chip">📘 Word</span>
+                  <span class="tool-chip">📗 Excel</span>
+                  <span class="tool-chip">📙 PowerPoint</span>
+                  <span class="tool-chip">📑 Docs & Sheets</span>
+                </div>
+                <p class="tool-desc">
+                  จัดทำเอกสารอย่างเป็นมืออาชีพ บริหารจัดการข้อมูล ทำรายงานการประชุม (Minutes of Meeting) รวดเร็วและแม่นยำ
+                </p>
+              </div>
+
+              <!-- Box 2: Design & Content -->
+              <div class="skill-category-box">
+                <div class="skill-cat-header">
+                  <span class="cat-num-pill cat-num-2">2</span>
+                  <span class="cat-title">Design & Content Creation</span>
+                </div>
+                <div class="skill-icons-row">
+                  <span class="tool-chip">🎨 Illustrator</span>
+                  <span class="tool-chip">🖼️ Photoshop</span>
+                  <span class="tool-chip">✨ Canva</span>
+                  <span class="tool-chip">🎬 CapCut</span>
+                </div>
+                <p class="tool-desc">
+                  ออกแบบกราฟิก สื่อประชาสัมพันธ์องค์กร ฉาก Backdrop นิทรรศการ และอาร์ตเวิร์กพร้อมผลิต
+                </p>
+              </div>
+
+              <!-- Box 3: AI Tools -->
+              <div class="skill-category-box">
+                <div class="skill-cat-header">
+                  <span class="cat-num-pill cat-num-3">3</span>
+                  <span class="cat-title">AI & Smart Workflow</span>
+                </div>
+                <div class="skill-icons-row">
+                  <span class="tool-chip">🤖 Gemini</span>
+                  <span class="tool-chip">⚡ ChatGPT</span>
+                  <span class="tool-chip">💡 Copilot</span>
+                  <span class="tool-chip">🎨 Midjourney</span>
+                </div>
+                <p class="tool-desc">
+                  ประยุกต์ใช้ AI เพื่อการระดมไอเดีย สรุปข้อมูลสำคัญ ออกแบบ Prompt และเพิ่มความเร็วในการจัดทำเอกสาร
+                </p>
+              </div>
+
+              <!-- Box 4: Digital Solutions & Data -->
+              <div class="skill-category-box">
+                <div class="skill-cat-header">
+                  <span class="cat-num-pill cat-num-4">4</span>
+                  <span class="cat-title">Digital Solutions & Data</span>
+                </div>
+                <div class="skill-icons-row">
+                  <span class="tool-chip">📊 Notion</span>
+                  <span class="tool-chip">📅 Calendar</span>
+                  <span class="tool-chip">📈 Dashboards</span>
+                  <span class="tool-chip">⚙️ Automation</span>
+                </div>
+                <p class="tool-desc">
+                  สร้าง Dashboard ติดตามงาน บริหารการประชุม และเชื่อมต่อระบบการทำงานให้เป็นอัตโนมัติ
+                </p>
+              </div>
+            </div>
+
+            <!-- Languages -->
+            <div class="language-box-clay">
+              <div class="lang-item">
+                <div class="lang-title">ภาษาไทย (Thai)</div>
+                <div class="lang-level">Native / ภาษาแม่</div>
+                <div class="lang-dots">
+                  <span class="lang-dot filled"></span>
+                  <span class="lang-dot filled"></span>
+                  <span class="lang-dot filled"></span>
+                  <span class="lang-dot filled"></span>
+                  <span class="lang-dot filled"></span>
+                </div>
+              </div>
+              <div class="lang-item">
+                <div class="lang-title">ภาษาอังกฤษ (English)</div>
+                <div class="lang-level">Intermediate / ปานกลาง</div>
+                <div class="lang-dots">
+                  <span class="lang-dot filled"></span>
+                  <span class="lang-dot filled"></span>
+                  <span class="lang-dot filled"></span>
+                  <span class="lang-dot"></span>
+                  <span class="lang-dot"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         MENU 2: ประวัติการศึกษา (EDUCATION JOURNEY)
+         ==================================================================== -->
+    <section id="education" class="section-container">
+      <div class="section-header-bubble">
+        <span class="section-badge-icon">2</span>
+        <h3 class="section-title">ประวัติการศึกษา</h3>
+        <span class="section-subtitle">Education Journey & Academic Milestones</span>
+      </div>
+
+      <div class="education-showcase-container">
+        <!-- Interactive S-Curve Timeline List -->
+        <div class="clay-card education-timeline-card">
+          <div class="edu-timeline-list">
+
+            <!-- 2569: Master Degree (Current) -->
+            <div class="edu-timeline-item">
+              <div class="edu-year-badge current">2569</div>
+              <div class="edu-content-card">
+                <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px;">
+                  <h4 class="edu-level-title">Executive M.B.A. (X-MBR)</h4>
+                  <span class="edu-status-pill">กำลังศึกษา</span>
+                </div>
+                <div class="edu-institution">มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ (KMUTNB)</div>
+                <div class="edu-subdetail">
+                  <span>King Mongkut's University of Technology North Bangkok</span>
+                  <span>• ระดับปริญญาโท บริหารธุรกิจมหาบัณฑิตสำหรับผู้บริหาร</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2556: Bachelor Degree -->
+            <div class="edu-timeline-item">
+              <div class="edu-year-badge y-spu">2556</div>
+              <div class="edu-content-card">
+                <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px;">
+                  <h4 class="edu-level-title">ปริญญาตรี บธ.บ. การจัดการโลจิสติกส์และโซ่อุปทาน</h4>
+                  <span class="edu-gpa-pill">GPA 3.17</span>
+                </div>
+                <div class="edu-institution">มหาวิทยาลัยศรีปทุม (Sripatum University - SPU)</div>
+                <div class="edu-subdetail">
+                  <span>Bachelor of Business Administration (Logistics & Supply Chain Management)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2554: Higher Vocational Certificate -->
+            <div class="edu-timeline-item">
+              <div class="edu-year-badge y-voc">2554</div>
+              <div class="edu-content-card">
+                <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px;">
+                  <h4 class="edu-level-title">ประกาศนียบัตรวิชาชีพชั้นสูง (ปวส.) สาขาการบัญชี</h4>
+                  <span class="edu-gpa-pill">GPA 3.52</span>
+                </div>
+                <div class="edu-institution">วิทยาลัยเทคโนโลยีทักษิณาบริหารธุรกิจ</div>
+                <div class="edu-subdetail">
+                  <span>Thai Business Administration Technological College (Accounting)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2552: Vocational Certificate -->
+            <div class="edu-timeline-item">
+              <div class="edu-year-badge y-tsn">2552</div>
+              <div class="edu-content-card">
+                <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px;">
+                  <h4 class="edu-level-title">ประกาศนียบัตรวิชาชีพ (ปวช.) สาขาการบัญชี</h4>
+                  <span class="edu-gpa-pill">GPA 3.82</span>
+                </div>
+                <div class="edu-institution">วิทยาลัยเทคโนโลยีทักษิณาบริหารธุรกิจ (TSN)</div>
+                <div class="edu-subdetail">
+                  <span>Thaksina Business Technological College (Vocational Certificate)</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2006: Lower Secondary -->
+            <div class="edu-timeline-item">
+              <div class="edu-year-badge y-sec">2006</div>
+              <div class="edu-content-card">
+                <div style="display: flex; justify-content: space-between; align-items: center; gap: 8px;">
+                  <h4 class="edu-level-title">มัธยมศึกษาตอนต้น (Lower Secondary School)</h4>
+                  <span class="edu-gpa-pill">GPA 3.48</span>
+                </div>
+                <div class="edu-institution">โรงเรียนเบญจมราชาลัย ในพระบรมราชูปถัมภ์</div>
+                <div class="edu-subdetail">
+                  <span>Benjamarachalai School</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- 2003: Primary School -->
+            <div class="edu-timeline-item">
+              <div class="edu-year-badge y-prim">2003</div>
+              <div class="edu-content-card">
+                <h4 class="edu-level-title">ประถมศึกษา (Kindergarten – Primary School)</h4>
+                <div class="edu-institution">โรงเรียนบางชัน (Bangchan School)</div>
+                <div class="edu-subdetail">
+                  <span>ระดับอนุบาลและประถมศึกษา</span>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Right: Original Visual Sheet Preview -->
+        <div class="edu-visual-side">
+          <div class="clay-card edu-preview-card" data-modal
+               data-img="assets/pdf_pages/page_05.png"
+               data-title="Education Journey (หน้า 5)"
+               data-subtitle="เส้นทางประวัติการศึกษา 2003 - 2569"
+               data-caption="แสดงภาพต้นฉบับไทม์ไลน์การศึกษาตั้งแต่ระดับประถมศึกษาจนถึงการศึกษาระดับปริญญาโท Executive M.B.A. มหาวิทยาลัยเทคโนโลยีพระจอมเกล้าพระนครเหนือ">
+            <h4 style="font-size: 1.1rem; font-weight: 800; color: #1e293b; margin-bottom: 12px;">
+              📄 เอกสารต้นฉบับ Education Journey
+            </h4>
+            <img src="assets/pdf_pages/page_05.png" alt="Education Journey Document Page 5" class="edu-sheet-img">
+            <p style="font-size: 0.85rem; color: #64748b; margin-top: 10px;">
+              🔍 คลิกเพื่อดูภาพหน้าเอกสารขนาดใหญ่
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         MENU 3: ประวัติการทำงาน (CAREER JOURNEY)
+         ==================================================================== -->
+    <section id="career" class="section-container">
+      <div class="section-header-bubble">
+        <span class="section-badge-icon">3</span>
+        <h3 class="section-title">ประวัติการทำงาน</h3>
+        <span class="section-subtitle">From Experience to Expertise (Career Journey)</span>
+      </div>
+
+      <div class="career-container">
+        <!-- 3D Podium Stepper (from Page 7) -->
+        <div class="career-steps-grid">
+          <!-- Step 01 -->
+          <div class="career-step-clay-column step-col-1">
+            <div>
+              <div class="step-number-bubble">01</div>
+              <div class="step-year">2013 - 2014</div>
+              <h4 class="step-role-title">WAREHOUSE STAFF</h4>
+              <ul class="step-tasks-list">
+                <li>Inventory checking</li>
+                <li>Stock organization</li>
+                <li>Document handling</li>
+              </ul>
+            </div>
+            <div class="step-skill-gained">🎯 Accuracy & Responsibility</div>
+          </div>
+
+          <!-- Step 02 -->
+          <div class="career-step-clay-column step-col-2">
+            <div>
+              <div class="step-number-bubble">02</div>
+              <div class="step-year">2014 - 2017</div>
+              <h4 class="step-role-title">ONLINE SELLER</h4>
+              <ul class="step-tasks-list">
+                <li>Customer communication</li>
+                <li>Order & delivery coordination</li>
+                <li>Sales promotion</li>
+              </ul>
+            </div>
+            <div class="step-skill-gained">💬 Communication & Problem Solving</div>
+          </div>
+
+          <!-- Step 03 -->
+          <div class="career-step-clay-column step-col-3">
+            <div>
+              <div class="step-number-bubble">03</div>
+              <div class="step-year">2014 - 2023</div>
+              <h4 class="step-role-title">ASSISTANT SECRETARY</h4>
+              <ul class="step-tasks-list">
+                <li>Executive support</li>
+                <li>Document & schedule</li>
+                <li>Internal & external coordination</li>
+              </ul>
+            </div>
+            <div class="step-skill-gained">📋 Organization & Coordination</div>
+          </div>
+
+          <!-- Step 04 -->
+          <div class="career-step-clay-column step-col-4">
+            <div>
+              <div class="step-number-bubble">04</div>
+              <div class="step-year">2023 - 2025</div>
+              <h4 class="step-role-title">COMMITTEE SECRETARY</h4>
+              <ul class="step-tasks-list">
+                <li>Meeting preparation</li>
+                <li>Meeting documents & agenda</li>
+                <li>Cross-team coordination</li>
+                <li>Follow-up & reporting</li>
+              </ul>
+            </div>
+            <div class="step-skill-gained">🤝 Meeting & Project Coordination</div>
+          </div>
+
+          <!-- Step 05 (Current) -->
+          <div class="career-step-clay-column step-col-5">
+            <div>
+              <div class="step-number-bubble">05</div>
+              <div class="step-year" style="color: #ec4899;">2023 - PRESENT (CURRENT)</div>
+              <h4 class="step-role-title" style="color: #7c3aed;">SECRETARY</h4>
+              <ul class="step-tasks-list">
+                <li>Executive support รอบด้าน</li>
+                <li>Multi-task coordination</li>
+                <li>Document & info management</li>
+                <li>Workflow improvement & AI</li>
+              </ul>
+            </div>
+            <div class="step-skill-gained" style="background: #fdf4ff; color: #9333ea;">🌟 Professional Administration</div>
+          </div>
+        </div>
+
+        <!-- 6 Core Responsibilities in Current Role (from Page 9) -->
+        <div class="clay-card current-role-breakdown">
+          <div class="current-role-header">
+            <div>
+              <h4 style="font-size: 1.3rem; font-weight: 800; color: #1e293b;">
+                📌 ภาระหน้าที่หลักในตำแหน่งปัจจุบัน (My Current Role)
+              </h4>
+              <p style="font-size: 0.9rem; color: #64748b; margin-top: 4px;">
+                Secretary / Committee Secretary • ขับเคลื่อนงานบริหาร การประชุม และการสื่อสารอย่างเป็นระบบ
+              </p>
+            </div>
+            <span class="role-badge-tag">⭐ Day-to-Day Excellence</span>
+          </div>
+
+          <div class="pillars-grid-6">
+            <!-- Pillar 1 -->
+            <div class="pillar-clay-card">
+              <div class="pillar-header">
+                <span class="pillar-num">01</span>
+                <span class="pillar-title">Executive & Admin Support</span>
+              </div>
+              <div class="pillar-chips">
+                <span class="pillar-chip">Schedules & Calendar</span>
+                <span class="pillar-chip">Documents</span>
+                <span class="pillar-chip">Information</span>
+                <span class="pillar-chip">Daily Support</span>
+              </div>
+            </div>
+
+            <!-- Pillar 2 -->
+            <div class="pillar-clay-card">
+              <div class="pillar-header">
+                <span class="pillar-num">02</span>
+                <span class="pillar-title">Internal & External Coordination</span>
+              </div>
+              <div class="pillar-chips">
+                <span class="pillar-chip">Teams</span>
+                <span class="pillar-chip">Committees</span>
+                <span class="pillar-chip">External Agencies</span>
+                <span class="pillar-chip">Stakeholders</span>
+              </div>
+            </div>
+
+            <!-- Pillar 3 -->
+            <div class="pillar-clay-card">
+              <div class="pillar-header">
+                <span class="pillar-num">03</span>
+                <span class="pillar-title">Creative & Project Support</span>
+              </div>
+              <div class="pillar-chips">
+                <span class="pillar-chip">Graphic Design</span>
+                <span class="pillar-chip">Event Materials</span>
+                <span class="pillar-chip">Projects</span>
+                <span class="pillar-chip">Special Assignments</span>
+              </div>
+            </div>
+
+            <!-- Pillar 4 -->
+            <div class="pillar-clay-card">
+              <div class="pillar-header">
+                <span class="pillar-num">04</span>
+                <span class="pillar-title">Meeting Coordination</span>
+              </div>
+              <div class="pillar-chips">
+                <span class="pillar-chip">Meeting Preparation</span>
+                <span class="pillar-chip">Agenda & Minutes</span>
+                <span class="pillar-chip">Meeting Docs</span>
+                <span class="pillar-chip">Follow-up Tracking</span>
+              </div>
+            </div>
+
+            <!-- Pillar 5 -->
+            <div class="pillar-clay-card">
+              <div class="pillar-header">
+                <span class="pillar-num">05</span>
+                <span class="pillar-title">Document & Info Management</span>
+              </div>
+              <div class="pillar-chips">
+                <span class="pillar-chip">Official Documents</span>
+                <span class="pillar-chip">Records</span>
+                <span class="pillar-chip">Data Accuracy</span>
+                <span class="pillar-chip">Digital Filing</span>
+              </div>
+            </div>
+
+            <!-- Pillar 6 -->
+            <div class="pillar-clay-card">
+              <div class="pillar-header">
+                <span class="pillar-num">06</span>
+                <span class="pillar-title">Data, Dashboard & Workflow</span>
+              </div>
+              <div class="pillar-chips">
+                <span class="pillar-chip">Data Analysis</span>
+                <span class="pillar-chip">Dashboard</span>
+                <span class="pillar-chip">Process Improvement</span>
+                <span class="pillar-chip">Automation</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Memorable Experience Highlight (Indonesia 2017 - Page 8) -->
+        <div class="experience-callout-clay">
+          <div class="exp-text-content">
+            <span style="color: #ea580c; font-weight: 800; font-size: 0.85rem; text-transform: uppercase;">
+              📍 INDONESIA 2017 • OVERSEAS PROJECT
+            </span>
+            <h4>A Memorable Experience: Pre-Wedding Production</h4>
+            <p>
+              ประสบการณ์การทำงานระดับนานาชาติในการดูแลโปรเจกต์ถ่ายทำพรีเวดดิ้ง ณ ประเทศอินโดนีเซีย ทำหน้าที่ประสานงานทีมงาน ช่างภาพ และผู้ให้บริการท้องถิ่น จัดการเรื่องตารางถ่ายทำ การเดินทาง ที่พัก และการแก้ไขปัญหาเฉพาะหน้าในต่างแดน
+            </p>
+            <div class="exp-learnings-tags">
+              <span class="exp-learn-tag">🤝 Communication</span>
+              <span class="exp-learn-tag">💪 Teamwork</span>
+              <span class="exp-learn-tag">🌱 Adaptability</span>
+              <span class="exp-learn-tag">🎯 Attention to Detail</span>
+              <span class="exp-learn-tag">🚀 Growth Mindset</span>
+            </div>
+          </div>
+
+          <div class="exp-preview-wrapper" data-modal
+               data-img="assets/pdf_pages/page_08.png"
+               data-title="A Memorable Experience - Indonesia 2017 (หน้า 8)"
+               data-subtitle="Pre-Wedding Production Experience in Indonesia"
+               data-caption="ภาพบันทึกการทำงานประสานงานในโครงการพรีเวดดิ้ง ณ ประเทศอินโดนีเซีย สะท้อนถึงการทำงานเป็นทีม การปรับตัว และความใส่ใจในรายละเอียด">
+            <img src="assets/pdf_pages/page_08.png" alt="Indonesia 2017 Experience" class="exp-preview-img">
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <!-- ====================================================================
+         MENU 4: ผลงานโดดเด่น (OUTSTANDING WORKS)
+         ==================================================================== -->
+    <section id="works" class="section-container">
+      <div class="section-header-bubble">
+        <span class="section-badge-icon">4</span>
+        <h3 class="section-title">ผลงานโดดเด่น</h3>
+        <span class="section-subtitle">Projects, Highlights & Achievements</span>
+      </div>
+
+      <!-- Works Filter Buttons -->
+      <nav class="works-filter-nav" aria-label="ตัวกรองผลงาน">
+        <button class="filter-btn-clay active" data-filter="all">
+          <span>🌟 ทั้งหมด</span>
+        </button>
+        <button class="filter-btn-clay" data-filter="awards">
+          <span>🏆 รางวัลและความสำเร็จ</span>
+        </button>
+        <button class="filter-btn-clay" data-filter="community">
+          <span>🤝 สังคมและชุมชน</span>
+        </button>
+        <button class="filter-btn-clay" data-filter="mc">
+          <span>🎤 พิธีกรและการประชุม</span>
+        </button>
+        <button class="filter-btn-clay" data-filter="events">
+          <span>🎉 กิจกรรมองค์กร & CSR</span>
+        </button>
+      </nav>
+
+      <!-- Outstanding Works Grid -->
+      <div class="works-gallery-grid">
+
+        <!-- Project 1: Excellence Award คคพ.กทม. 2568 (Page 17) -->
+        <article class="work-item-card" data-category="awards" data-modal
+                 data-img="assets/pdf_pages/page_17.png"
+                 data-title="รางวัล Excellent คคพ.กทม. ประจำปี 2568 (เขตคลองสามวา)"
+                 data-subtitle="Achievement & Recognition • ขับเคลื่อน 27 โครงการพัฒนาคุณภาพชีวิต"
+                 data-caption="คณะขับเคลื่อนการมีส่วนร่วมเพื่อการพัฒนาเขตคลองสามวา ได้รับรางวัล Excellent คคพ.กทม. ประจำปี 2568 จากความมุ่งมั่นและการมีส่วนร่วมของทุกภาคส่วน ขับเคลื่อนผลลัพธ์ที่เป็นรูปธรรม 27 โครงการ ใน 5 มิติสำคัญ ร่วมกับนายชัชชาติ สิทธิพันธุ์ ผู้ว่าราชการกรุงเทพมหานคร">
+          <div class="work-thumb-wrapper">
+            <img src="assets/pdf_pages/page_17.png" alt="Excellence Award คคพ. 2568" class="work-thumb-img">
+            <span class="work-category-badge">🏆 รางวัลยอดเยี่ยม</span>
+            <span class="work-page-ref">17</span>
+          </div>
+          <div class="work-body">
+            <h4 class="work-title">รางวัล Excellent คคพ.กทม. ประจำปี 2568</h4>
+            <span class="work-role-tag">คคพ. เขตคลองสามวา • ร่วมผลักดัน 27 โครงการ</span>
+            <p class="work-description">
+              มีส่วนร่วมสำคัญในการขับเคลื่อนผลงานจนคว้ารางวัล Excellent คคพ.กทม. ผลักดันโครงการทั้งด้านเศรษฐกิจ (9 โครงการ), สิ่งแวดล้อมและพื้นที่สีเขียว (7 โครงการ), การจราจรและโครงสร้างพื้นฐาน (6 โครงการ), ความสะอาด (4 โครงการ) และการศึกษา
+            </p>
+            <div class="work-highlights-list">
+              <span class="highlight-pill">ร่วมคิด ร่วมทำ ร่วมพัฒนา</span>
+              <span class="highlight-pill">ผู้ว่าฯ ชัชชาติ สิทธิพันธุ์</span>
+              <span class="highlight-pill">27 Projects</span>
+            </div>
+            <div class="work-card-footer">
+              <span class="btn-view-doc">ดูรายละเอียดเอกสาร ➜</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2: On Stage - Opening MC AGM SEAFCO (Page 10) -->
+        <article class="work-item-card" data-category="mc" data-modal
+                 data-img="assets/pdf_pages/page_10.png"
+                 data-title="On Stage: Opening MC & Committee Introduction"
+                 data-subtitle="Annual General Meeting (AGM) • SEAFCO"
+                 data-caption="ทำหน้าที่พิธีกรเปิดงาน (Opening MC) และผู้แนะนำคณะกรรมการและผู้บริหารในการประชุมสามัญผู้ถือหุ้นประจำปี สร้างบรรยากาศที่เหมาะสมและดำเนินรายการตามลำดับวาระอย่างราบรื่นและเป็นมืออาชีพ">
+          <div class="work-thumb-wrapper">
+            <img src="assets/pdf_pages/page_10.png" alt="Opening MC on stage" class="work-thumb-img">
+            <span class="work-category-badge">🎤 พิธีกรบนเวที</span>
+            <span class="work-page-ref">10</span>
+          </div>
+          <div class="work-body">
+            <h4 class="work-title">พิธีกรเปิดการประชุมใหญ่ผู้ถือหุ้นประจำปี (AGM)</h4>
+            <span class="work-role-tag">Opening MC & Committee Introducer</span>
+            <p class="work-description">
+              รับบทบาทสำคัญบนเวทีในการกล่าวต้อนรับผู้เข้าร่วมประชุม แนะนำคณะกรรมการและผู้บริหาร ดำเนินรายการตามลำดับวาระ สร้างความประทับใจและความเป็นมืออาชีพแก่งานประชุมใหญ่
+            </p>
+            <div class="work-highlights-list">
+              <span class="highlight-pill">Annual General Meeting</span>
+              <span class="highlight-pill">Stage Presence</span>
+              <span class="highlight-pill">SEAFCO</span>
+            </div>
+            <div class="work-card-footer">
+              <span class="btn-view-doc">ดูรายละเอียดเอกสาร ➜</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3: Meeting & Seminar Coordination (Page 11) -->
+        <article class="work-item-card" data-category="mc" data-modal
+                 data-img="assets/pdf_pages/page_11.png"
+                 data-title="Meeting & Seminar Coordination"
+                 data-subtitle="From Preparation to Smooth Execution"
+                 data-caption="ประสานงานการจัดสัมมนาวิชาการและการประชุมของบริษัทตั้งแต่ขั้นตอนวางแผน เอกสารประกอบ การประสานงานผู้เข้าร่วม การสนับสนุนหน้างาน และการติดตามผลการประชุมอย่างเป็นระบบ">
+          <div class="work-thumb-wrapper">
+            <img src="assets/pdf_pages/page_11.png" alt="Meeting and Seminar Coordination" class="work-thumb-img">
+            <span class="work-category-badge">📋 การบริหารการประชุม</span>
+            <span class="work-page-ref">11</span>
+          </div>
+          <div class="work-body">
+            <h4 class="work-title">การบริหารจัดการและประสานงานการประชุมสัมมนา</h4>
+            <span class="work-role-tag">Plan • Coordinate • Support • Follow Up</span>
+            <p class="work-description">
+              วางแผนและจัดเตรียมการประชุมวิชาการ การจัดเตรียมเอกสาร การดูแลความเรียบร้อยของสถานที่และอุปกรณ์ ตลอดจนการสรุปผลการประชุมเพื่อขับเคลื่อนงานต่อไป
+            </p>
+            <div class="work-highlights-list">
+              <span class="highlight-pill">Academic Seminars</span>
+              <span class="highlight-pill">Executive Meeting</span>
+              <span class="highlight-pill">On-Site Support</span>
+            </div>
+            <div class="work-card-footer">
+              <span class="btn-view-doc">ดูรายละเอียดเอกสาร ➜</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 4: BKK Food Bank (Page 15) -->
+        <article class="work-item-card" data-category="community" data-modal
+                 data-img="assets/pdf_pages/page_15.png"
+                 data-title="BKK Food Bank - ชุมชนคลองสามวา"
+                 data-subtitle="Community Support Every Month"
+                 data-caption="ร่วมจัดกิจกรรมและสนับสนุนโครงการ BKK Food Bank เป็นประจำทุกเดือน เพื่อส่งต่ออาหาร สิ่งของจำเป็น และความช่วยเหลือสู่ประชาชนในชุมชนอย่างยั่งยืน 'Small acts, Big impact.'">
+          <div class="work-thumb-wrapper">
+            <img src="assets/pdf_pages/page_15.png" alt="BKK Food Bank Community Support" class="work-thumb-img">
+            <span class="work-category-badge">🌱 สังคมและชุมชน</span>
+            <span class="work-page-ref">15</span>
+          </div>
+          <div class="work-body">
+            <h4 class="work-title">โครงการ BKK Food Bank คลองสามวา</h4>
+            <span class="work-role-tag">Supporting the BKK Food Bank Every Month</span>
+            <p class="work-description">
+              ลงพื้นที่ประสานงานและส่งมอบถุงยังชีพ อาหารสด อาหารแห้ง ให้กับครอบครัวในชุมชนที่ขาดแคลนร่วมกับสำนักงานเขตและภาคีเครือข่ายอย่างต่อเนื่องทุกเดือน
+            </p>
+            <div class="work-highlights-list">
+              <span class="highlight-pill">คคพ.คลองสามวา</span>
+              <span class="highlight-pill">Food Security</span>
+              <span class="highlight-pill">Monthly Support</span>
+            </div>
+            <div class="work-card-footer">
+              <span class="btn-view-doc">ดูรายละเอียดเอกสาร ➜</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 5: Khlong Sam Wa Community Market & Tasting (Page 12 & 13) -->
+        <article class="work-item-card" data-category="community" data-modal
+                 data-img="assets/pdf_pages/page_13.png"
+                 data-title="Khlong Sam Wa Community Market (ปันรัก คลองสามวา)"
+                 data-subtitle="From Selected Vendors to Live Community Experience"
+                 data-caption="ตลาดนัดชุมชน 3 วันเต็ม คัดสรรร้านอาหาร ของกิน ของอร่อยในท้องถิ่นผ่านกระบวนการชิมและคัดเลือก (Tasting to Selection) จัดทำระบบคูปอง บัตรตามใจ สื่อประชาสัมพันธ์ และสร้างรายได้หมุนเวียนสู่ชุมชน">
+          <div class="work-thumb-wrapper">
+            <img src="assets/pdf_pages/page_13.png" alt="Khlong Sam Wa Community Market" class="work-thumb-img">
+            <span class="work-category-badge">🎪 งานตลาดนัดชุมชน</span>
+            <span class="work-page-ref">13</span>
+          </div>
+          <div class="work-body">
+            <h4 class="work-title">ตลาดนัดชุมชน “ปันรัก คลองสามวา”</h4>
+            <span class="work-role-tag">Selection & Tasting • 3-Day Live Market</span>
+            <p class="work-description">
+              ประสานงานผู้ประกอบการร้านค้าท้องถิ่น จัดชิมประเมินอาหาร ออกแบบกราฟิก บัตรคูปอง และดูแลการดำเนินงานตลาดสด 3 วัน สร้างบรรยากาศอบอุ่นและกระตุ้นเศรษฐกิจชุมชน
+            </p>
+            <div class="work-highlights-list">
+              <span class="highlight-pill">บัตรตามใจ</span>
+              <span class="highlight-pill">Vendor Tasting</span>
+              <span class="highlight-pill">Jas Hall</span>
+            </div>
+            <div class="work-card-footer">
+              <span class="btn-view-doc">ดูรายละเอียดเอกสาร ➜</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 6: BKK EXPO 2025 & BKK FOR ALL (Page 14 & 16) -->
+        <article class="work-item-card" data-category="community" data-modal
+                 data-img="assets/pdf_pages/page_16.png"
+                 data-title="BKK EXPO 2025 & BKK FOR ALL"
+                 data-subtitle="Head of Visitor Reception & Community Showcase"
+                 data-caption="รับหน้าที่หัวหน้าทีมต้อนรับ (Head of Visitor Reception) ในงาน BKK EXPO 2025 อำนวยความสะดวกแก่ผู้เข้าชม และจัดบูธ Khlong Sam Wa Community Showcase นำเสนอโปรแกรมท่องเที่ยว One-Day Trip">
+          <div class="work-thumb-wrapper">
+            <img src="assets/pdf_pages/page_16.png" alt="BKK EXPO 2025" class="work-thumb-img">
+            <span class="work-category-badge">🏛️ นิทรรศการใหญ่</span>
+            <span class="work-page-ref">16</span>
+          </div>
+          <div class="work-body">
+            <h4 class="work-title">BKK EXPO 2025 & BKK FOR ALL</h4>
+            <span class="work-role-tag">Head of Visitor Reception • Community Showcase</span>
+            <p class="work-description">
+              บริหารทีมต้อนรับผู้เข้าชมนิทรรศการกรุงเทพมหานคร ดูแลความพร้อมของบูธกิจกรรม และเผยแพร่เอกลักษณ์ผลิตภัณฑ์ชุมชนคลองสามวาผ่านโปรแกรม One-Day Trip
+            </p>
+            <div class="work-highlights-list">
+              <span class="highlight-pill">BKK EXPO 2025</span>
+              <span class="highlight-pill">Head of Reception</span>
+              <span class="highlight-pill">One-Day Trip</span>
+            </div>
+            <div class="work-card-footer">
+              <span class="btn-view-doc">ดูรายละเอียดเอกสาร ➜</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 7: Khlong Sam Wa City Run (Page 18) -->
+        <article class="work-item-card" data-category="events" data-modal
+                 data-img="assets/pdf_pages/page_18.png"
+                 data-title="Khlong Sam Wa City Run (วิ่งล้อมเมือง)"
+                 data-subtitle="Event Coordination & Creative Support • 30+ Runners"
+                 data-caption="ดูแลและสนับสนุนงานวิ่ง Khlong Sam Wa City Run ตั้งแต่การประสานงานสปอนเซอร์ การออกแบบกราฟิก การจัดเตรียมของรางวัล ดูแลทีมนักวิ่ง SEAFCO กว่า 30 คน และเข้าร่วมการประกวด Fancy Run จนคว้ารางวัล Best Fancy">
+          <div class="work-thumb-wrapper">
+            <img src="assets/pdf_pages/page_18.png" alt="Khlong Sam Wa City Run" class="work-thumb-img">
+            <span class="work-category-badge">🏃 กิจกรรมกีฬา & วิ่งแฟนซี</span>
+            <span class="work-page-ref">18</span>
+          </div>
+          <div class="work-body">
+            <h4 class="work-title">Khlong Sam Wa City Run (วิ่งล้อมเมือง)</h4>
+            <span class="work-role-tag">30+ SEAFCO Runners • Best Fancy Trophy</span>
+            <p class="work-description">
+              ประสานงานสปอนเซอร์ จัดทำสื่อประชาสัมพันธ์ เตรียมความพร้อมนักวิ่งซีฟโก้กว่า 30 ชีวิต พร้อมทั้งร่วมวิ่งและได้รับถ้วยรางวัล Best Fancy Run
+            </p>
+            <div class="work-highlights-list">
+              <span class="highlight-pill">5 km / 10 km</span>
+              <span class="highlight-pill">SEAFCO Runners</span>
+              <span class="highlight-pill">Best Fancy Award</span>
+            </div>
+            <div class="work-card-footer">
+              <span class="btn-view-doc">ดูรายละเอียดเอกสาร ➜</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 8: SEAFCO Baan Hao (ซีฟโก้ บ้านเฮา) (Page 19) -->
+        <article class="work-item-card" data-category="events" data-modal
+                 data-img="assets/pdf_pages/page_19.png"
+                 data-title="งานพนักงาน ซีฟโก้ บ้านเฮา (SEAFCO Baan Hao)"
+                 data-subtitle="Creative Event & Employee Engagement • Tai Baan Favorite Award"
+                 data-caption="งานสร้างความผูกพันในองค์กรประจำปี 'ซีฟโก้ บ้านเฮา' มีส่วนร่วมในการออกแบบฉาก Backdrop, จัดทำบัตรเกมงานวัด, สื่อประชาสัมพันธ์ และได้รับรางวัล 'Tai Baan Favorite Award' (รางวัลขวัญใจไทบ้าน)">
+          <div class="work-thumb-wrapper">
+            <img src="assets/pdf_pages/page_19.png" alt="SEAFCO Baan Hao" class="work-thumb-img">
+            <span class="work-category-badge">🎉 กิจกรรมพนักงาน</span>
+            <span class="work-page-ref">19</span>
+          </div>
+          <div class="work-body">
+            <h4 class="work-title">งานสังสรรค์พนักงาน “ซีฟโก้ บ้านเฮา”</h4>
+            <span class="work-role-tag">Backdrop Design • Tai Baan Favorite Award</span>
+            <p class="work-description">
+              ออกแบบฉากถ่ายภาพธีมไทบ้าน บัตรเล่นเกมงานวัด และร่วมสร้างความสุข รอยยิ้ม และความสามัคคีให้แก่พนักงานในองค์กร จนได้รับรางวัลขวัญใจไทบ้าน
+            </p>
+            <div class="work-highlights-list">
+              <span class="highlight-pill">Backdrop Design</span>
+              <span class="highlight-pill">บัตรเล่นเกมงานวัด</span>
+              <span class="highlight-pill">รางวัลขวัญใจไทบ้าน</span>
+            </div>
+            <div class="work-card-footer">
+              <span class="btn-view-doc">ดูรายละเอียดเอกสาร ➜</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 9: Event Involvement & CSR Initiatives (Page 20 & 21) -->
+        <article class="work-item-card" data-category="events" data-modal
+                 data-img="assets/pdf_pages/page_20.png"
+                 data-title="กิจกรรมจิตอาสาและเพื่อสังคม (CSR & Event Involvement)"
+                 data-subtitle="สมทบทุน รพ.คลองสามวา 330,460 บ. • รพ.นวมินทร์ 105,834 บ. • ผ้าป่าต้นไม้"
+                 data-caption="เข้าร่วมกิจกรรมสาธารณประโยชน์อย่างต่อเนื่อง เช่น พิธีเปิดอาคารโรงเรียนวัดพระยาสุเรนทร์, ร่วมสมทบทุนสร้างโรงพยาบาลคลองสามวา 330,460 บาท, มอบเงินสนับสนุน รพ.นวมินทร์ 105,834 บาท, กิจกรรมผ้าป่าต้นไม้ ปลูกต้นไม้ล้านต้น และกิจกรรมเฉลิมพระเกียรติ">
+          <div class="work-thumb-wrapper">
+            <img src="assets/pdf_pages/page_20.png" alt="CSR and Event Involvement" class="work-thumb-img">
+            <span class="work-category-badge">💖 CSR & กิจกรรมสังคม</span>
+            <span class="work-page-ref">20-21</span>
+          </div>
+          <div class="work-body">
+            <h4 class="work-title">กิจกรรมสาธารณประโยชน์และงานสังคม (CSR)</h4>
+            <span class="work-role-tag">Hospital Donations • Tree Planting • Community Giving</span>
+            <p class="work-description">
+              ร่วมขับเคลื่อนกิจกรรมเพื่อส่วนรวม มอบทุนสร้างโรงพยาบาลคลองสามวา มอบเงินสมทบทุน รพ.นวมินทร์ โครงการปลูกต้นไม้ล้านต้น กทม. และงานเฉลิมพระเกียรติ
+            </p>
+            <div class="work-highlights-list">
+              <span class="highlight-pill">รพ.คลองสามวา 330,460 บ.</span>
+              <span class="highlight-pill">รพ.นวมินทร์ 105,834 บ.</span>
+              <span class="highlight-pill">ปลูกต้นไม้ล้านต้น</span>
+            </div>
+            <div class="work-card-footer">
+              <span class="btn-view-doc">ดูรายละเอียดเอกสาร ➜</span>
+            </div>
+          </div>
+        </article>
+
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ======================================================================
+       IMAGE LIGHTBOX MODAL VIEWER
+       ====================================================================== -->
+  <aside id="clayModal" class="clay-lightbox-modal" role="dialog" aria-modal="true" aria-hidden="true">
+    <div class="modal-content-clay">
+      <div class="modal-header">
+        <div class="modal-title-wrap">
+          <h3 id="modalTitle">รายละเอียดผลงาน</h3>
+          <p id="modalSubtitle"></p>
+        </div>
+        <button id="btnCloseModal" class="btn-close-modal" aria-label="ปิดหน้าต่าง">✕</button>
+      </div>
+      <div class="modal-body-scroll">
+        <img id="modalImage" src="" alt="ภาพผลงานขนาดใหญ่" class="modal-large-img">
+        <div id="modalCaption" class="modal-caption-box"></div>
+      </div>
+    </div>
+  </aside>
+
+  <!-- ======================================================================
+       FOOTER (ข้อกำหนดพิเศษ: FLUID WIDTH, สีพื้นหลังเทาอ่อน, ระบบเว็บส่วนบุคคล พัฒนาโดย [Sirichon Thungklang])
+       ====================================================================== -->
+  <footer class="site-footer-fluid">
+    <div class="footer-fluid-container">
+      
+      <!-- Top Row -->
+      <div class="footer-top-row">
+        <div class="footer-brand-wrap">
+          <img src="assets/profile_full.jpg" alt="Sirichon Thungklang Avatar" class="footer-avatar">
+          <div class="footer-brand-text">
+            <h4>Sirichon Thungklang (วันฝน)</h4>
+            <p>Secretary | Graphic Designer | Digital & Event Support</p>
+          </div>
+        </div>
+
+        <div class="footer-contact-links">
+          <a href="tel:+66841441669" class="footer-contact-chip">
+            <span>📞 084-144-1669</span>
+          </a>
+          <a href="mailto:araindayzxyz@gmail.com" class="footer-contact-chip">
+            <span>✉️ araindayzxyz@gmail.com</span>
+          </a>
+          <span class="footer-contact-chip">
+            <span>💬 Line: araindayz</span>
+          </span>
+          <button id="btnBackToTop" class="btn-back-to-top" aria-label="กลับสู่ด้านบน">
+            <span>▲</span>
+          </button>
+        </div>
+      </div>
+
+      <div class="footer-divider"></div>
+
+      <!-- Bottom Row with Strict Requirement Credit -->
+      <div class="footer-bottom-row">
+        <!-- ข้อกำหนด: ระบบเว็บส่วนบุคคล พัฒนาโดย [Sirichon Thungklang] -->
+        <div class="footer-required-credit">
+          <span>🔒 ระบบเว็บส่วนบุคคล พัฒนาโดย</span>
+          <strong class="author-name">[Sirichon Thungklang]</strong>
+        </div>
+
+        <div class="footer-extra-notes">
+          <span>© 2017 - 2026 WANFHON Portfolio • 3D Claymorphism Web Application</span>
+        </div>
+      </div>
+
+    </div>
+  </footer>
+
+  <!-- Scripts -->
+  <script src="js/app.js"></script>
+</body>
+</html>
